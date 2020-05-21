@@ -1,4 +1,9 @@
 # unist-util-findall
+[![Actions Status](https://github.com/pcafstockf/unist-util-findall/workflows/CI/badge.svg)](https://github.com/pcafstockf/unist-util-findall/actions)
+[![Actions Status](https://github.com/pcafstockf/unist-util-findall/workflows/NPM%20Publish/badge.svg)](https://github.com/pcafstockf/unist-util-findall/actions)
+[![npm version](https://badge.fury.io/js/unist-util-findall.svg)](https://badge.fury.io/js/unist-util-findall)
+[![Actions Status](https://david-dm.org/pcafstockf/unist-util-findall.svg)](https://github.com/pcafstockf/unist-util-findall/package.json)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 [Unist](https://github.com/wooorm/unist) utility to select everything in a tree that matches a given condition.  
 Useful for working with [remark](https://github.com/wooorm/remark), [rehype](https://github.com/wooorm/rehype) and [retext](https://github.com/wooorm/retext).
