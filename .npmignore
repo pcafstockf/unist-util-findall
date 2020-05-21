@@ -1,0 +1,6 @@
+/.github/
+.gitignore
+.editorconfig
+.eslintignore
+test.js
+example.js
