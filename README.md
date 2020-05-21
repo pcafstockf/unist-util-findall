@@ -1,6 +1,16 @@
 # unist-util-findall
 
-[Unist](https://github.com/wooorm/unist) node finding utility. Useful for working with [remark](https://github.com/wooorm/remark), [rehype](https://github.com/wooorm/rehype) and [retext](https://github.com/wooorm/retext).
+[Unist](https://github.com/wooorm/unist) utility to select everything in a tree that matches a given condition.  
+Useful for working with [remark](https://github.com/wooorm/remark), [rehype](https://github.com/wooorm/rehype) and [retext](https://github.com/wooorm/retext).
+
+## Why?
+
+[unist-util-find](https://github.com/blahah/unist-util-find) returns as soon as a single match is found.  
+[unist-util-find-all-after](https://github.com/syntax-tree/unist-util-find-all-after), [unist-util-find-all-before](https://github.com/syntax-tree/unist-util-find-all-before), and [unist-util-find-all-between](https://github.com/mrzmmr/unist-util-find-all-between), only search immediate children.*  
+[unist-util-filter](https://github.com/syntax-tree/unist-util-filter) creates a new copy of each matched node.  
+findAll is a lot like [unist-util-select](https://github.com/syntax-tree/unist-util-select), except that you can use object and function conditions.
+
+*The findall phrase (no hyphen) was chosen to distinguish it from the find-all-xxx utilities).
 
 ## Installation
 
