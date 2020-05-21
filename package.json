@@ -1,0 +1,32 @@
+{
+  "name": "unist-util-findall",
+  "version": "1.0.0",
+  "description": "Unist node finding utility. Useful for working with remark, rehype or retext.",
+  "repository": "https://github.com/pcafstockf/unist-util-findall",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "keywords": [
+    "unist",
+    "remark",
+    "retext",
+    "rehype",
+    "hast",
+    "mdast",
+    "nlcst",
+    "findall",
+    "search"
+  ],
+  "author": "Frank Stock",
+  "license": "MIT",
+  "devDependencies": {
+    "remark": "^12.0.0",
+    "standard": "^14.3.4",
+    "tape": "^5.0.0"
+  },
+  "dependencies": {
+    "lodash.iteratee": "^4.7.0",
+    "unist-util-visit": "^2.0.2"
+  }
+}
